@@ -3,27 +3,6 @@ html {
 }
 body {
   font-family: "Roboto", sans-serif;
-
-  /* This is a cool linear gradient http://colorzilla.com/gradient-editor/#ffc578+0,fb9d23+100;Orange+3D+%233 */
-  background: #ffc578; /* Old browsers */
-  background: -moz-radial-gradient(
-    center,
-    ellipse cover,
-    #ffc578 0%,
-    #fb9d23 100%
-  ); /* FF3.6-15 */
-  background: -webkit-radial-gradient(
-    center,
-    ellipse cover,
-    #ffc578 0%,
-    #fb9d23 100%
-  ); /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(
-    ellipse at center,
-    #ffc578 0%,
-    #fb9d23 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc578', endColorstr='#fb9d23',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .montez-font {
@@ -36,9 +15,6 @@ body {
 }
 
 #logo-holder {
-  background-image: url("../assets/images/pantry-hero-img-1280x300.jpeg");
-  background-size: contain;
-  background-repeat: no-repeat;
   width: 100%;
   min-height: 300px;
 }
@@ -198,12 +174,13 @@ a:hover {
 /* LARGE screens */
 @media only screen and (min-device-width: 1281px) and (max-device-width: 1920px) {
   #logo-holder {
-    background-image: url("../assets/images/Hero-img-1920x.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     width: 100%;
     min-height: 300px;
+  }
+  body {
+    background-image: url(../assets/images/clean_board.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 
@@ -212,5 +189,11 @@ a:hover {
     display: flex;
     flex-flow: column;
     flex-wrap: wrap;
+  }
+
+  body {
+    background-image: url(../assets/images/mobile_board.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
