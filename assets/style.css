@@ -14,6 +14,14 @@ body {
   font-size: 1em;
 }
 
+.outline-text {
+    text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
+
 #logo-holder {
   width: 100%;
   min-height: 300px;
