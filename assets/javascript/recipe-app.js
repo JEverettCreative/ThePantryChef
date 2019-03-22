@@ -84,16 +84,16 @@ $(document).ready(function() {
   console.log(now);
 
   if (parseInt(now) < 12 && parseInt(now) > 5) {
-    $(".chef-message").text("Good morning");
+    $(".chef-message").text("Good morning! Let's get cracking on breakfast!");
   }
 
   if (parseInt(now) >= 12 && parseInt(now) < 18) {
     // alert("true");
-    $(".chef-message").text("Good afternoon");
+    $(".chef-message").text("Good afternoon! Let's find something for lunch.");
   }
 
   if (parseInt(now) >= 18 || parseInt(now) === 0) {
-    $(".chef-message").text("Good evening");
+    $(".chef-message").text("Good evening! What are we doing for dinner?");
   }
 
   printFavorites();
