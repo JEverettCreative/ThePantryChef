@@ -190,6 +190,7 @@ a:hover {
     background-image: url(../assets/images/clean_board.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }
 
@@ -204,5 +205,6 @@ a:hover {
     background-image: url(../assets/images/mobile_board.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }
