@@ -1,5 +1,5 @@
-# ThePantryChef
-##Project 1
+# The Pantry Chef
+## Personalized fork from an existing group project
 
 ## Contributors
 @wesbragagt
@@ -9,19 +9,25 @@
 ## Technology
 - HTML5, CSS, Bootstrap
 - Javascript, jQuery, Ajax, moment.js, magnific-popup.js
-- Local storage
+- Local Storage
 - API's: Edamam Recipe Search, OpenWeatherMap
 
 ## About
-- First project for the Vanderbilt Coding Bootcamp, due March 18th 2019. This app takes user input of up to 3 ingredients and retrives up to 10 recipes involving those ingredients and prints them to the page. Dynamically updates and saves recent 3 searches. Also provides local weather info to help personalize the experience.
+- First group project for the Vanderbilt Coding Bootcamp. This app takes user input of up to 3 ingredients and retrives up to 10 recipes utilizing those ingredients and displays them in a grid layout in the viewport. Dynamically updates and saves most recent 3 searches. Also provides local weather info to help personalize the experience.
 
 ## License
 - None
 
 ## How to use this code
 - Open the app in the git environment and input 1 to 3 ingredients.
+
+## Deployed Project
+https://jeverettcreative.github.io/ThePantryChef_V2/
   
 ## Contact
+@JEverettCreative
+- e-mail: jonathan@jonathaneverettcreative.com
+- LinkedIn: https://www.linkedin.com/in/jonathan-everett-64725435/
 
 @jryankendall
 - e-mail: jryankendall@gmail.com
@@ -31,6 +37,3 @@
 - e-mail:wesbragagt@gmail.com
 - LinkedIn: https://www.linkedin.com/in/weslley-braga-07695316a/
 
-@JEverettCreative
-- e-mail: jonathan@jonathaneverettcreative.com
-- LinkedIn: https://www.linkedin.com/in/jonathan-everett-64725435/
